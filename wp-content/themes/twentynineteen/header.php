@@ -27,85 +27,76 @@
 	
 	<div class="container">
 
-		<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-			<a class="navbar-brand" href="#"> 
-	    		<img src="/img/logo.png" width="30" height="50" alt="">PHU PC-et 
-	  		</a>
+			<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+				<a class="navbar-brand" href="http://127.0.0.1:81/wordpress/"> 
+		    		<img src="/img/logo.png" width="30" height="50" alt=""></a>
 
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
 
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto">
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
 
-			    <img id="left_nav" src="/img/left_nav.png" >
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#"><span class="align-middle">Strona Główna</span><span class="sr-only">(current)</span></a>
-			      </li>
-			    <img id="right_nav" src="/img/right_nav.png" >
+				    <img id="left_nav" src="/img/left_nav.png" >
+				      <li class="nav-item active">
+				        <a class="nav-link" href="http://127.0.0.1:81/wordpress/"><span class="align-middle">Strona Główna</span><span class="sr-only">(current)</span></a>
+				      </li>
+				    <img id="right_nav" src="/img/right_nav.png" >
 
-			    <img id="left_nav" src="/img/left_nav.png" >		    	
-			      <li class="nav-item">
-			        <a class="nav-link" href="#"><span class="align-middle">Sklep</span></a>
-			      </li>
-			    <img id="right_nav" src="/img/right_nav.png" >
+				    <img id="left_nav" src="/img/left_nav.png" >		    	
+				      <li class="nav-item">
+				        <a class="nav-link" href="http://127.0.0.1:81/wordpress/sklep/"><span class="align-middle">Sklep</span></a>
+				      </li>
+				    <img id="right_nav" src="/img/right_nav.png" >
 
-			    <img id="left_nav" src="/img/left_nav.png" >
-			      <li class="nav-item">
-			        <a class="nav-link" href="#"><span class="align-middle">Kasy Fiskalne</span></a>
-			      </li>
-			    <img id="right_nav" src="/img/right_nav.png" >
+				    <img id="left_nav" src="/img/left_nav.png" >
+				      <li class="nav-item">
+				        <a class="nav-link" href="http://127.0.0.1:81/wordpress/kasy-fiskalne/"><span class="align-middle">Kasy Fiskalne</span></a>
+				      </li>
+				    <img id="right_nav" src="/img/right_nav.png" >
 
-			    
-			    <img id="left_nav" src="/img/left_nav.png" >
-			     
-			      <li class="nav-item dropdown" id="navbar">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          <span class="align-middle">Agencja Reklamowa</span>
-			        </a>
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          
-			          <a class="dropdown-item" href="#">Action</a>
-			          <a class="dropdown-item" href="#">Another action</a>
-			          <a class="dropdown-item" href="#">Something else here</a>
-			        </div>
-			      </li>
+				    
+				    <img id="left_nav" src="/img/left_nav.png" >
+				     
+				      <li class="nav-item dropdown" id="navbar">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          <span class="align-middle">Agencja Reklamowa</span>
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          
+				          <a class="dropdown-item" href="http://127.0.0.1:81/wordpress/agencja-reklamowa/wizytowki/">Wizytówki, vouchery, zaproszenia</a>
+				          <a class="dropdown-item" href="http://127.0.0.1:81/wordpress/agencja-reklamowa/fotoobrazy/">Fotoobrazy</a>
+				          <a class="dropdown-item" href="http://127.0.0.1:81/wordpress/agencja-reklamowa/druk-wielkoformatowy/">Druk Wielkoformatowy</a>
+				          <a class="dropdown-item" href="http://127.0.0.1:81/wordpress/agencja-reklamowa/oklejanie-witryn/">Oklejanie witryn</a>
+				          <a class="dropdown-item" href="http://127.0.0.1:81/wordpress/agencja-reklamowa/oklejanie-aut/">Oklejanie Aut</a>
+				          <a class="dropdown-item" href="http://127.0.0.1:81/wordpress/agencja-reklamowa/kasetony/">Kasetony</a>
+				          <a class="dropdown-item" href="http://127.0.0.1:81/wordpress/agencja-reklamowa/strony-www/">Strony WWW</a>
+				          <a class="dropdown-item" href="http://127.0.0.1:81/wordpress/agencja-reklamowa/realizacje/">Realizacje</a>
+				        </div>
+				      </li>
 
-			    <img id="right_nav" src="/img/right_nav.png" >
+				    <img id="right_nav" src="/img/right_nav.png" >
 
-		    </ul>
-		  </div>
-		</nav>
+				    <img id="left_nav" src="/img/left_nav.png" >
+				     
+				      <li class="nav-item dropdown" id="navbar">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          <span class="align-middle">Serwis komputerowy</span>
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          
+				          <a class="dropdown-item" href="http://127.0.0.1:81/wordpress/serwis-komputerowy/kopia-zapasowa/">Kopia Zapasowa</a>
+				          <a class="dropdown-item" href="http://127.0.0.1:81/wordpress/serwis-komputerowy/oprogramowanie-ksiegowo-magazynowe/">Oprogramowanie Księgowo-magazynowe</a>
+				          <a class="dropdown-item" href="http://127.0.0.1:81/wordpress/serwis-komputerowy/opieka-serwisowa-sos/">Opieka serwisowa SOS</a>
+				        </div>
+				      </li>
 
+				    <img id="right_nav" src="/img/right_nav.png" >
 
-
-		<!--
-	<header id="masthead" class="<?php echo is_singular() && twentynineteen_can_show_post_thumbnail() ? 'site-header featured-image' : 'site-header'; ?>">
-
-				<div class="site-branding-container">
-					<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
-				</div>
-				
-				<?php if ( is_singular() && twentynineteen_can_show_post_thumbnail() ) : ?>
-					<div class="site-featured-image">
-						<?php
-							twentynineteen_post_thumbnail();
-							the_post();
-							$discussion = ! is_page() && twentynineteen_can_show_post_thumbnail() ? twentynineteen_get_discussion_data() : null;
-
-							$classes = 'entry-header';
-						if ( ! empty( $discussion ) && absint( $discussion->responses ) > 0 ) {
-							$classes = 'entry-header has-discussion';
-						}
-						?>
-						<div class="<?php echo $classes; ?>">
-							<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
-						</div>
-						<?php rewind_posts(); ?>
-					</div>
-				<?php endif; ?>
-			</header>-->
+			    </ul>
+			  </div>
+			</nav>
 
 		</div>
 	<div id="content" class="site-content">
