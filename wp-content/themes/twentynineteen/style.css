@@ -1869,7 +1869,7 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
 }
 /* CSS Start 
 1. Header
-2. Body
+2. Content
 3. Footer
 4. Smaller devices */
 
@@ -1884,6 +1884,8 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
 	width: auto;
 }
 .nav-item{
+
+    font-weight: bold;
 	background-color: #b6eafc;
 	padding-bottom: 1vh;
 	white-space:nowrap;
@@ -1901,6 +1903,8 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
 }
 
 .dropdown-menu{
+
+    font-weight: bold;
 	margin:none;
 	padding:0;
 	border:none;
@@ -1957,6 +1961,56 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
 }
 .entry-footer{
 	display: none ;
+}
+
+
+/* 3. Footer */
+
+/*Widget od ostatnich postów*/
+#recent-posts-2{
+	font-size: 2vh;
+	right: -35vh;
+	width: 35vh;
+	position: fixed;
+    top: 16vh;
+    z-index: 99999;
+    transition: right 1s ;
+    height: 20vh;
+    background-color: #f8f9fa;
+    opacity: 100;
+
+}
+#recent-posts-2 ul{
+	top: 16vh;
+	right: inherit;
+	position: fixed;
+	padding: 1vh;
+}
+#recent-posts-2 li {
+	max-width: 30vh;
+	word-wrap: break-word;
+}
+#recent-posts-2:hover{
+    right: 0;
+}
+
+.widget-title {
+	padding-top: 0.5vh;
+	font-size: 2vh;
+	white-space: nowrap;
+    width: 20vh;
+    height: 4vh;
+    border: 0.2vh solid #C30011;
+    background: #E61B2D;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 1vh ;
+    text-align: center;
+    position: relative;
+    top: 8vh;
+    left: -12vh;
+    transform: rotate(-90deg);
+    z-index: 1;
 }
 
 
