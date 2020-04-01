@@ -1994,7 +1994,7 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
     right: 0;
 }
 
-.widget-title {
+#recent-posts-2 h2{
 	padding-top: 0.5vh;
 	font-size: 2vh;
 	white-space: nowrap;
@@ -2012,6 +2012,27 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
     transform: rotate(-90deg);
     z-index: 1;
 }
+/* Dane adresowe i kontaktowe*/
+.footer_wraper{
+	padding: 0;
+}
+.Footer_left{
+	float:left;
+	font-size: 1em;
+	width:45%;
+	margin-right: 10%;
+	height: inherit;
+	background-color: #f8f9fa;
+	padding: 3vh;
+}
+.Footer_right{
+	float:left;
+	width:45%;
+	background-color: #f8f9fa;
+	height: inherit;
+	padding: 3vh;
+}
+
 
 
 @media screen and (max-width: 991px) {
